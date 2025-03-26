@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout, Menu } from 'antd';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import FuncionariosList from './components/funcionarios/FuncionariosList';
 import FuncionariosForm from './components/funcionarios/FuncionariosForm';
 import TarefasList from './components/tarefas/TarefasList';
@@ -13,12 +13,9 @@ import './index.css';
 
 const { Header, Content, Footer } = Layout;
 
-// Usar o basename vazio para compatibilidade com a configuração base: './' do Vite
-const basename = '';
-
 const App: React.FC = () => {
   return (
-    <Router basename={basename}>
+    <Router>
       <Layout className="layout" style={{ minHeight: '100vh' }}>
         <Header style={{ display: 'flex', alignItems: 'center' }}>
           <div className="logo" style={{ color: 'white', marginRight: '20px', fontSize: '18px', fontWeight: 'bold' }}>Sistema de Tarefas</div>
