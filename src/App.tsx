@@ -13,8 +13,8 @@ import './index.css';
 
 const { Header, Content, Footer } = Layout;
 
-// Usar o basename configurado no vite.config.ts
-const basename = '/tarefas';
+// Usar o basename vazio para compatibilidade com a configuração base: './' do Vite
+const basename = '';
 
 const App: React.FC = () => {
   return (
