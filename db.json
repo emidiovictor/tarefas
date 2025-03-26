@@ -1,0 +1,57 @@
+{
+  "funcionarios": [
+    {
+      "nome": "Mariah",
+      "id": 1
+    },
+    {
+      "nome": "Yasmyn",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "nome": "Pedro Santos"
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "descricao": "Limpar banheiro"
+    },
+    {
+      "id": 2,
+      "descricao": "Organizar estoque"
+    },
+    {
+      "id": 3,
+      "descricao": "Atender clientes"
+    }
+  ],
+  "atribuicoes": [
+    {
+      "tarefaId": 1,
+      "funcionariosIds": [
+        1,
+        2,
+        3
+      ],
+      "periodicidade": "semanal",
+      "dataCriacao": "2025-03-26T01:22:22.488Z",
+      "dataInicio": "2025-04-01T01:22:20.445Z",
+      "dataFim": "2025-04-30T01:22:20.445Z",
+      "id": 1
+    },
+    {
+      "tarefaId": 1,
+      "funcionariosIds": [
+        1,
+        2
+      ],
+      "periodicidade": "semanal",
+      "dataCriacao": "2025-03-26T00:58:29.190Z",
+      "dataInicio": "2025-03-30T00:58:12.149Z",
+      "dataFim": "2026-01-01T02:59:59.999Z",
+      "id": 2
+    }
+  ]
+}
